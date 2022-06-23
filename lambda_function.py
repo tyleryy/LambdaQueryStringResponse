@@ -13,7 +13,6 @@ def lambda_handler(event, context):
     print('transactionAmount = ' + transactionAmount + "\n")
     
     #2 Construct body of response object
-    
     transactionResponse = {}
     transactionResponse['transactionId'] = transactionId
     transactionResponse['type'] = transactionType
